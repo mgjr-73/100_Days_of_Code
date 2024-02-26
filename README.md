@@ -1,3 +1,5 @@
+https://100daysofpython.dev/
+
 ## Day 1 lesson topics:
 - `print` function
 - Debugging
