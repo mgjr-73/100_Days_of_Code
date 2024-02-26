@@ -1,3 +1,4 @@
+# DAY 2 PROJECT:
 # 1. Welcome the user.
 # 2. Ask for the total bill.
 # 3. Ask what percentage tip (10, 12, or 15 percent.
