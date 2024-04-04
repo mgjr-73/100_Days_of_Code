@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c5b5ce1-a2c0-4444-b601-a21ba4294721" name="Changes" comment="...">
+    <list default="true" id="1c5b5ce1-a2c0-4444-b601-a21ba4294721" name="Changes" comment="Edited to summarize. For details, see D002_notes.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +56,16 @@
     "Python.D002_data_types.executor": "Debug",
     "Python.D002_life_in_weeks.executor": "Run",
     "Python.D002_tip_calculator.executor": "Run",
+    "Python.D003_bmi_calc_2.0.executor": "Run",
+    "Python.D003_leap_year.executor": "Run",
+    "Python.D003_notes.executor": "Run",
+    "Python.love_calc.executor": "Run",
+    "Python.odd_even.executor": "Run",
     "Python.os_module.executor": "Run",
+    "Python.pizza_order.executor": "Run",
     "Python.scratch.executor": "Run",
     "Python.sys_and_os_module.executor": "Run",
+    "Python.ticket.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
@@ -68,6 +76,12 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Day 002" />
+      <recent name="$PROJECT_DIR$/Day 001" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -124,19 +138,62 @@
       <option name="project" value="LOCAL" />
       <updated>1708913085613</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="...">
+      <option name="closed" value="true" />
+      <created>1708926432940</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708926432940</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added comments.">
+      <option name="closed" value="true" />
+      <created>1708926485497</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708926485497</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added comments.">
+      <option name="closed" value="true" />
+      <created>1708926548593</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708926548593</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add Day 2 notes.">
+      <option name="closed" value="true" />
+      <created>1708927371420</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708927371420</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Edited to summarize. For details, see D002_notes.py">
+      <option name="closed" value="true" />
+      <created>1708927587533</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708927587533</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init Day 1 project" />
     <MESSAGE value="..." />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
+    <MESSAGE value="Added comments." />
+    <MESSAGE value="Add Day 2 notes." />
+    <MESSAGE value="Edited to summarize. For details, see D002_notes.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited to summarize. For details, see D002_notes.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/D002_data_types.py</url>
+          <url>file://$PROJECT_DIR$/Day 002/D002_data_types.py</url>
           <line>7</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
