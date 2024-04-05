@@ -32,3 +32,17 @@ print(us_states[2])
 
 us_states.extend(["California", "Texas", "Utah"])
 print(us_states)
+
+# Avoid getting typical off-by-one errors. Just remember list index always starts at 0.
+
+#==================
+# Nested Lists
+#==================
+mixed_list = [["Bob", "Sue", "John"],[8, 6, 10]]
+print(mixed_list)
+
+names = ["Bob", "Sue", "John"]
+sizes = [8, 6, 10]
+mixed = [names, sizes]
+print(mixed)
+print(mixed[0][0],mixed[1][0])

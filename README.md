@@ -43,3 +43,5 @@
 - Offset and Appending Items on lists
   - A list uses square brackets [item1, item2]
   - Index order
+  - Index out of range errors
+  - Nested list
