@@ -62,4 +62,3 @@ else:
     print("Player wins!")
 
 print("Thank you for playing")
-
