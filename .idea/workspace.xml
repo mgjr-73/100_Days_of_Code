@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c5b5ce1-a2c0-4444-b601-a21ba4294721" name="Changes" comment="Edited to summarize. For details, see D002_notes.py">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 004/rps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 004/rps.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -58,19 +62,23 @@
     "Python.D003_bmi_calc_2.0.executor": "Run",
     "Python.D003_leap_year.executor": "Run",
     "Python.D003_notes.executor": "Run",
+    "Python.D004_notes.executor": "Run",
+    "Python.banker_roulette.executor": "Run",
     "Python.heads_or_tails.executor": "Run",
     "Python.love_calc.executor": "Run",
     "Python.odd_even.executor": "Run",
     "Python.os_module.executor": "Run",
     "Python.pizza_order.executor": "Run",
+    "Python.rps.executor": "Run",
     "Python.scratch.executor": "Run",
     "Python.sys_and_os_module.executor": "Run",
     "Python.ticket.executor": "Run",
+    "Python.treasure_map.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "rps__proj",
     "last_opened_file_path": "/Users/mgozum/Documents/Python/Udemy_100_Days_of_Code",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
