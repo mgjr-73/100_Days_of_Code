@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c5b5ce1-a2c0-4444-b601-a21ba4294721" name="Changes" comment="Edited to summarize. For details, see D002_notes.py" />
+    <list default="true" id="1c5b5ce1-a2c0-4444-b601-a21ba4294721" name="Changes" comment="Edited to summarize. For details, see D002_notes.py">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,11 +68,18 @@
     "Python.D003_leap_year.executor": "Run",
     "Python.D003_notes.executor": "Run",
     "Python.D004_notes.executor": "Run",
+    "Python.DAY005_notes.executor": "Run",
+    "Python.adding_even_numbers.executor": "Run",
+    "Python.average_height.executor": "Run",
     "Python.banker_roulette.executor": "Run",
+    "Python.fizzbuzz.executor": "Run",
     "Python.heads_or_tails.executor": "Run",
+    "Python.high_score.executor": "Run",
     "Python.love_calc.executor": "Run",
     "Python.odd_even.executor": "Run",
     "Python.os_module.executor": "Run",
+    "Python.password_generator.executor": "Run",
+    "Python.password_generator_instrct_solution.executor": "Run",
     "Python.pizza_order.executor": "Run",
     "Python.rps.executor": "Run",
     "Python.scratch.executor": "Run",
@@ -229,6 +239,13 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>
