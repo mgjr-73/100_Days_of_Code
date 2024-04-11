@@ -1,3 +1,5 @@
+I've taken a couple of classes to start my Python learning journey. I found this class on Udemy which is perfect for reviewing and doing some coding each day.
+
 ## Day 1 lesson topics:
 - `print` function
 - Debugging
