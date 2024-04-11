@@ -62,3 +62,13 @@
   - [Hurdle Loop Challenge 2](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%203&url=worlds%2Ftutorial_en%2Fhurdle3.json)
   - [Hurdle Loop Challenge 3](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%204&url=worlds%2Ftutorial_en%2Fhurdle4.json)
 - Project: [Escaping the Maze](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json)
+
+## Day 7 lesson topics:
+- Flow Chart
+- Beginner Hangman 
+- Challenges:
+  1. Picking random words and checking answers
+  2. Replacing blanks with guesses
+  3. Checking if player has won
+  4. Keeping track of player's lives
+  5. Improving user experience
