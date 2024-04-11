@@ -51,3 +51,14 @@
 - for loop
   - range() function
 - Project: Create a password generator
+
+## Day 6 lesson topics:
+- Defining and calling Python functions
+  - [Built-in functions](https://docs.python.org/3/library/functions.html)
+  - [Hurdles Loop Challenge](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%201&url=worlds%2Ftutorial_en%2Fhurdle1.json)
+- Indentation
+  - Check out [PEP8 Style Guide for Python Code](https://peps.python.org/pep-0008/)
+- While loops
+  - [Hurdle Loop Challenge 2](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%203&url=worlds%2Ftutorial_en%2Fhurdle3.json)
+  - [Hurdle Loop Challenge 3](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%204&url=worlds%2Ftutorial_en%2Fhurdle4.json)
+- Project: [Escaping the Maze](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json)
