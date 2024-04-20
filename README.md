@@ -74,3 +74,5 @@ I've taken a couple of classes to start my Python learning journey. I found this
   3. Checking if player has won
   4. Keeping track of player's lives
   5. Improving user experience
+     - [import Statement](https://www.askpython.com/python/python-import-statement)
+  6. BONUS TIP: [clear() function](https://www.geeksforgeeks.org/clear-screen-python/)
