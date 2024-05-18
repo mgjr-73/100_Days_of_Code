@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c5b5ce1-a2c0-4444-b601-a21ba4294721" name="Changes" comment="Edited to summarize. For details, see D002_notes.py">
-      <change afterPath="$PROJECT_DIR$/Day 007/DAY007_Hangman.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 007/DAY007_notes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 007/DAY007_notes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,48 +57,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.D001_band_name_gen.executor": "Run",
-    "Python.D002_bmi_calc.executor": "Run",
-    "Python.D002_data_types.executor": "Debug",
-    "Python.D002_life_in_weeks.executor": "Run",
-    "Python.D002_tip_calculator.executor": "Run",
-    "Python.D003_bmi_calc_2.0.executor": "Run",
-    "Python.D003_leap_year.executor": "Run",
-    "Python.D003_notes.executor": "Run",
-    "Python.D004_notes.executor": "Run",
-    "Python.DAY005_notes.executor": "Run",
-    "Python.DAY007_Hangman.executor": "Run",
-    "Python.adding_even_numbers.executor": "Run",
-    "Python.average_height.executor": "Run",
-    "Python.banker_roulette.executor": "Run",
-    "Python.fizzbuzz.executor": "Run",
-    "Python.heads_or_tails.executor": "Run",
-    "Python.high_score.executor": "Run",
-    "Python.love_calc.executor": "Run",
-    "Python.odd_even.executor": "Run",
-    "Python.os_module.executor": "Run",
-    "Python.password_generator.executor": "Run",
-    "Python.password_generator_instrct_solution.executor": "Run",
-    "Python.pizza_order.executor": "Run",
-    "Python.rps.executor": "Run",
-    "Python.scratch.executor": "Run",
-    "Python.sys_and_os_module.executor": "Run",
-    "Python.ticket.executor": "Run",
-    "Python.treasure_map.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/mgozum/Documents/Python/Udemy_100_Days_of_Code",
-    "settings.editor.selected.configurable": "PyConsoleConfigurable.Python Console"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.008_01_greet_function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.008_02_paint_area_calc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.008_03_prime_num_chk.executor&quot;: &quot;Run&quot;,
+    &quot;Python.008_04-1_caesar_cipher_encryption.executor&quot;: &quot;Run&quot;,
+    &quot;Python.008_04_2_caesar_cipher_decryption.executor&quot;: &quot;Run&quot;,
+    &quot;Python.008_04_3_caesar_cipher_reorg_code.executor&quot;: &quot;Run&quot;,
+    &quot;Python.008_project_caesar_cipher.executor&quot;: &quot;Run&quot;,
+    &quot;Python.D001_band_name_gen.executor&quot;: &quot;Run&quot;,
+    &quot;Python.D002_bmi_calc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.D002_data_types.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.D002_life_in_weeks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.D002_tip_calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.D003_bmi_calc_2.0.executor&quot;: &quot;Run&quot;,
+    &quot;Python.D003_leap_year.executor&quot;: &quot;Run&quot;,
+    &quot;Python.D003_notes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.D004_notes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DAY005_notes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DAY007_Hangman.executor&quot;: &quot;Run&quot;,
+    &quot;Python.adding_even_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.average_height.executor&quot;: &quot;Run&quot;,
+    &quot;Python.banker_roulette.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fizzbuzz.executor&quot;: &quot;Run&quot;,
+    &quot;Python.heads_or_tails.executor&quot;: &quot;Run&quot;,
+    &quot;Python.high_score.executor&quot;: &quot;Run&quot;,
+    &quot;Python.love_calc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.odd_even.executor&quot;: &quot;Run&quot;,
+    &quot;Python.os_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.password_generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.password_generator_instrct_solution.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pizza_order.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rps.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sys_and_os_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ticket.executor&quot;: &quot;Run&quot;,
+    &quot;Python.treasure_map.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mgozum/Documents/Python/Udemy_100_Days_of_Code&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;PyConsoleConfigurable.Python Console&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Python"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Udemy_100_Days_of_Code" is-module-sdk="true">
@@ -123,7 +128,95 @@
       <recent name="$PROJECT_DIR$/Day 001" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.008_project_caesar_cipher">
+    <configuration name="008_01_greet_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Udemy_100_Days_of_Code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_008" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_008/008_01_greet_function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="008_04_2_caesar_cipher_decryption" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Udemy_100_Days_of_Code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_008" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_008/008_04_2_caesar_cipher_decryption.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="008_04_3_caesar_cipher_reorg_code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Udemy_100_Days_of_Code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_008" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_008/008_04_3_caesar_cipher_reorg_code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="008_project_caesar_cipher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Udemy_100_Days_of_Code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_008" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_008/008_project_caesar_cipher.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="DAY007_Hangman" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Udemy_100_Days_of_Code" />
       <option name="ENV_FILES" value="" />
@@ -147,8 +240,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.008_04_2_caesar_cipher_decryption" />
+      <item itemvalue="Python.008_04_3_caesar_cipher_reorg_code" />
+      <item itemvalue="Python.008_project_caesar_cipher" />
+      <item itemvalue="Python.008_01_greet_function" />
+      <item itemvalue="Python.DAY007_Hangman" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.008_project_caesar_cipher" />
+        <item itemvalue="Python.008_04_3_caesar_cipher_reorg_code" />
+        <item itemvalue="Python.008_04_2_caesar_cipher_decryption" />
+        <item itemvalue="Python.008_01_greet_function" />
         <item itemvalue="Python.DAY007_Hangman" />
       </list>
     </recent_temporary>
@@ -283,7 +387,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Day 002/D002_data_types.py</url>
+          <url>file://$PROJECT_DIR$/Day_002/D002_data_types.py</url>
           <line>7</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>

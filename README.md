@@ -76,3 +76,13 @@ I've taken a couple of classes to start my Python learning journey. I found this
   5. Improving user experience
      - [import Statement](https://www.askpython.com/python/python-import-statement)
   6. BONUS TIP: [clear() function](https://www.geeksforgeeks.org/clear-screen-python/)
+
+## Day 8 lesson topics:
+- Functions and Inputs
+- Arguments and Parameters
+  - Positional vs Keyword Arguments
+- Exercises:
+  - Paint Area Calculator
+  - Prime Number Checker
+- Project: Caesar Cipher
+  - [List index() method](https://www.w3schools.com/python/ref_list_index.asp)
