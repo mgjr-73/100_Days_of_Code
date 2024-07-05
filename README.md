@@ -86,3 +86,11 @@ I've taken a couple of classes to start my Python learning journey. I found this
   - Prime Number Checker
 - Project: Caesar Cipher
   - [List index() method](https://www.w3schools.com/python/ref_list_index.asp)
+
+## Day 9 lesson topics:
+- Dictionary
+  - Key:Value pair. Syntax {key1:value1, key2:value2,}
+- Nesting lists and dictionaries
+- Exercises
+  - Grading Program
+  - Secret Auction
