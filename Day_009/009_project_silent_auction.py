@@ -8,8 +8,15 @@ def clear():
     else:   # for mac and linux(here, os.name is 'posix')
         _ = system('clear')
 
-def highest_bidder():
-    pass
+def highest_bidder(bidding_dict):
+    winning_bid = 0
+    winning_bidder = ""
+    for bidder in bidding_dict:
+        bid_amount = bidding_dict[bidder]
+        if bid_amount > winning_bid:
+            winning_bid = bid_amount
+            winning_bidder = bidder
+    print(f'The winner is "{winning_bidder}" with ${winning_bid}.')
 
 
 print(art.logo)
@@ -19,22 +26,21 @@ add_bidder = True
 bids = {}
 
 while add_bidder:
-    name = input("What is your name?: ")
-    bid = input("What is your bid?: ")
+    current_bidder = input("What is your name?: ")
+    bid = int(input("What is your bid?: "))
+    # Add bidder information to dictionary
+    bids[current_bidder] = bid
     other_bidder = input("Are there any other bidders? (Type 'yes' or 'no'): ")
 
-    # Add bidder information to dictionary
-    pass
+
 
     if other_bidder == "no":
         add_bidder = False
     else:
         clear()
-        pass
 
-highest_bidder()
-clear()
 
+highest_bidder(bids)
 
 
 

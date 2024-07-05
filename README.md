@@ -94,3 +94,15 @@ I've taken a couple of classes to start my Python learning journey. I found this
 - Exercises
   - Grading Program
   - Secret Auction
+
+## Day 10 lesson topics:
+- Functions with Outputs
+  - Links
+    - [Convert string to title case](https://stackoverflow.com/questions/8347048/how-to-convert-string-to-title-case-in-python)
+- Multiple Return Values
+- Docstrings
+- Print vs Return
+- While Loops, Flags and Recursion
+- Exercises
+  - Days in Month
+- Project: Calculator
