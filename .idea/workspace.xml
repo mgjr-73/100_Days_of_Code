@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1c5b5ce1-a2c0-4444-b601-a21ba4294721" name="Changes" comment="Edited to summarize. For details, see D002_notes.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_010/010_calculator_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_010/010_calculator_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_011/blackjack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_011/blackjack.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +89,7 @@
     &quot;Python.adding_even_numbers.executor&quot;: &quot;Run&quot;,
     &quot;Python.average_height.executor&quot;: &quot;Run&quot;,
     &quot;Python.banker_roulette.executor&quot;: &quot;Run&quot;,
+    &quot;Python.blackjack.executor&quot;: &quot;Run&quot;,
     &quot;Python.fizzbuzz.executor&quot;: &quot;Run&quot;,
     &quot;Python.func_with_outputs.executor&quot;: &quot;Run&quot;,
     &quot;Python.heads_or_tails.executor&quot;: &quot;Run&quot;,
@@ -142,7 +143,7 @@
       <recent name="$PROJECT_DIR$/Day 001" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.010_calculator_3">
+  <component name="RunManager" selected="Python.blackjack">
     <configuration name="009_project_silent_auction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Udemy_100_Days_of_Code" />
       <option name="ENV_FILES" value="" />
@@ -231,7 +232,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="010_days_in_month" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="blackjack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Udemy_100_Days_of_Code" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,33 +241,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_010" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_011" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_010/010_days_in_month.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_011/blackjack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.blackjack" />
       <item itemvalue="Python.010_calculator" />
       <item itemvalue="Python.010_calculator_2" />
       <item itemvalue="Python.010_calculator_3" />
-      <item itemvalue="Python.010_days_in_month" />
       <item itemvalue="Python.009_project_silent_auction" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.blackjack" />
         <item itemvalue="Python.010_calculator_3" />
         <item itemvalue="Python.009_project_silent_auction" />
         <item itemvalue="Python.010_calculator_2" />
         <item itemvalue="Python.010_calculator" />
-        <item itemvalue="Python.010_days_in_month" />
       </list>
     </recent_temporary>
   </component>

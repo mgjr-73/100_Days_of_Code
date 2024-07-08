@@ -106,3 +106,6 @@ I've taken a couple of classes to start my Python learning journey. I found this
 - Exercises
   - Days in Month
 - Project: Calculator
+
+## Day 11 lesson topics:
+- Capstone Project: Blackjack
