@@ -109,3 +109,14 @@ I've taken a couple of classes to start my Python learning journey. I found this
 
 ## Day 11 lesson topics:
 - Capstone Project: Blackjack
+
+## Day 12 lesson topics:
+- Namespaces: Local vs. Global Scope
+- Does Python Have a Block Scope?
+- How To Modify a Global Variable
+- Python Constants and Global Scope
+- Final Project:
+  - Guessing Game
+- Links:
+  - [Get Your Custom ASCII Text](https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
+  - [Python Tutor](https://pythontutor.com/visualize.html#mode=edit)
