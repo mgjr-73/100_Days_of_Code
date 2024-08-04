@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c5b5ce1-a2c0-4444-b601-a21ba4294721" name="Changes" comment="Edited to summarize. For details, see D002_notes.py" />
+    <list default="true" id="1c5b5ce1-a2c0-4444-b601-a21ba4294721" name="Changes" comment="Edited to summarize. For details, see D002_notes.py">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,6 +140,8 @@
       <recent name="C:\Users\mgjr7\PycharmProjects\100_Days_of_Code\Day_010" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Days-11-20" />
+      <recent name="$PROJECT_DIR$/Days-1-10" />
       <recent name="$PROJECT_DIR$/Day 002" />
       <recent name="$PROJECT_DIR$/Day 001" />
     </key>
@@ -400,7 +404,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Day_002/D002_data_types.py</url>
+          <url>file://$PROJECT_DIR$/Days-1-10/Day_002/D002_data_types.py</url>
           <line>7</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>

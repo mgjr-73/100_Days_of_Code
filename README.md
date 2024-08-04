@@ -120,3 +120,17 @@ I've taken a couple of classes to start my Python learning journey. I found this
 - Links:
   - [Get Your Custom ASCII Text](https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
   - [Python Tutor](https://pythontutor.com/visualize.html#mode=edit)
+
+## Day 13 lesson topics:
+- Describe the Problem
+- Reproduce the Bug
+- Play Computer and Evaluate Each Line
+- Fixing Errors and Watching for Red Underlines
+- Squash Bugs with a print() Statement
+- Using a Debugger
+- Final Debugging Tips
+  - [Stack Overflow](https://stackoverflow.com/questions/tagged/python)
+- Coding Exercises
+  - Debugging Odd or Even
+  - Debugging Leap Year
+  - Debugging Fizz Buzz
