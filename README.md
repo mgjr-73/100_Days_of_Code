@@ -3,7 +3,7 @@ I've taken a couple of classes to start my Python learning journey. I found this
 ## Day 1 lesson topics:
 - `print` function
 - Debugging
-- 'input` function
+- `input` function
 - variables
 - Project: Band Name Generator
 
