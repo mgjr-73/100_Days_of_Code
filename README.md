@@ -134,3 +134,9 @@ I've taken a couple of classes to start my Python learning journey. I found this
   - Debugging Odd or Even
   - Debugging Leap Year
   - Debugging Fizz Buzz
+
+## Day 14 lesson topics:
+- Build a Higher Lower Game
+- Links
+  - [The Higher Lower Game](https://www.higherlowergame.com/)
+  - [Higher Lower Python Demo](https://appbrewery.github.io/python-day14-demo/)
