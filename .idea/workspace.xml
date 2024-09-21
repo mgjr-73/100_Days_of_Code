@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1c5b5ce1-a2c0-4444-b601-a21ba4294721" name="Changes" comment="Edited to summarize. For details, see D002_notes.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,72 +57,73 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.008_01_greet_function.executor&quot;: &quot;Run&quot;,
-    &quot;Python.008_02_paint_area_calc.executor&quot;: &quot;Run&quot;,
-    &quot;Python.008_03_prime_num_chk.executor&quot;: &quot;Run&quot;,
-    &quot;Python.008_04-1_caesar_cipher_encryption.executor&quot;: &quot;Run&quot;,
-    &quot;Python.008_04_2_caesar_cipher_decryption.executor&quot;: &quot;Run&quot;,
-    &quot;Python.008_04_3_caesar_cipher_reorg_code.executor&quot;: &quot;Run&quot;,
-    &quot;Python.008_project_caesar_cipher.executor&quot;: &quot;Run&quot;,
-    &quot;Python.009_01_grading.executor&quot;: &quot;Run&quot;,
-    &quot;Python.009_02_dict_in_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.009_project_silent_auction.executor&quot;: &quot;Run&quot;,
-    &quot;Python.010_calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.010_calculator_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.010_calculator_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.010_days_in_month.executor&quot;: &quot;Run&quot;,
-    &quot;Python.010_func_with_outputs (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.010_func_with_outputs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.012_number_guessing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.D001_band_name_gen.executor&quot;: &quot;Run&quot;,
-    &quot;Python.D002_bmi_calc.executor&quot;: &quot;Run&quot;,
-    &quot;Python.D002_data_types.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.D002_life_in_weeks.executor&quot;: &quot;Run&quot;,
-    &quot;Python.D002_tip_calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.D003_bmi_calc_2.0.executor&quot;: &quot;Run&quot;,
-    &quot;Python.D003_leap_year.executor&quot;: &quot;Run&quot;,
-    &quot;Python.D003_notes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.D004_notes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DAY005_notes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DAY007_Hangman.executor&quot;: &quot;Run&quot;,
-    &quot;Python.adding_even_numbers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.average_height.executor&quot;: &quot;Run&quot;,
-    &quot;Python.banker_roulette.executor&quot;: &quot;Run&quot;,
-    &quot;Python.blackjack.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fizzbuzz.executor&quot;: &quot;Run&quot;,
-    &quot;Python.func_with_outputs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.heads_or_tails.executor&quot;: &quot;Run&quot;,
-    &quot;Python.high_score.executor&quot;: &quot;Run&quot;,
-    &quot;Python.higher_lower.executor&quot;: &quot;Run&quot;,
-    &quot;Python.instructor_blackjack.executor&quot;: &quot;Run&quot;,
-    &quot;Python.library.executor&quot;: &quot;Run&quot;,
-    &quot;Python.love_calc.executor&quot;: &quot;Run&quot;,
-    &quot;Python.odd_even.executor&quot;: &quot;Run&quot;,
-    &quot;Python.os_module.executor&quot;: &quot;Run&quot;,
-    &quot;Python.password_generator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.password_generator_instrct_solution.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pizza_order.executor&quot;: &quot;Run&quot;,
-    &quot;Python.rps.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sys_and_os_module.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ticket.executor&quot;: &quot;Run&quot;,
-    &quot;Python.treasure_map.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mgozum/Documents/Python/100_Days_of_Code/Days-11-20/Day_014&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.008_01_greet_function.executor": "Run",
+    "Python.008_02_paint_area_calc.executor": "Run",
+    "Python.008_03_prime_num_chk.executor": "Run",
+    "Python.008_04-1_caesar_cipher_encryption.executor": "Run",
+    "Python.008_04_2_caesar_cipher_decryption.executor": "Run",
+    "Python.008_04_3_caesar_cipher_reorg_code.executor": "Run",
+    "Python.008_project_caesar_cipher.executor": "Run",
+    "Python.009_01_grading.executor": "Run",
+    "Python.009_02_dict_in_list.executor": "Run",
+    "Python.009_project_silent_auction.executor": "Run",
+    "Python.010_calculator.executor": "Run",
+    "Python.010_calculator_2.executor": "Run",
+    "Python.010_calculator_3.executor": "Run",
+    "Python.010_days_in_month.executor": "Run",
+    "Python.010_func_with_outputs (1).executor": "Run",
+    "Python.010_func_with_outputs.executor": "Run",
+    "Python.012_number_guessing.executor": "Run",
+    "Python.D001_band_name_gen.executor": "Run",
+    "Python.D002_bmi_calc.executor": "Run",
+    "Python.D002_data_types.executor": "Debug",
+    "Python.D002_life_in_weeks.executor": "Run",
+    "Python.D002_tip_calculator.executor": "Run",
+    "Python.D003_bmi_calc_2.0.executor": "Run",
+    "Python.D003_leap_year.executor": "Run",
+    "Python.D003_notes.executor": "Run",
+    "Python.D004_notes.executor": "Run",
+    "Python.DAY005_notes.executor": "Run",
+    "Python.DAY007_Hangman.executor": "Run",
+    "Python.adding_even_numbers.executor": "Run",
+    "Python.average_height.executor": "Run",
+    "Python.banker_roulette.executor": "Run",
+    "Python.blackjack.executor": "Run",
+    "Python.coffee_machine.executor": "Run",
+    "Python.fizzbuzz.executor": "Run",
+    "Python.func_with_outputs.executor": "Run",
+    "Python.heads_or_tails.executor": "Run",
+    "Python.high_score.executor": "Run",
+    "Python.higher_lower.executor": "Run",
+    "Python.instructor_blackjack.executor": "Run",
+    "Python.library.executor": "Run",
+    "Python.love_calc.executor": "Run",
+    "Python.odd_even.executor": "Run",
+    "Python.os_module.executor": "Run",
+    "Python.password_generator.executor": "Run",
+    "Python.password_generator_instrct_solution.executor": "Run",
+    "Python.pizza_order.executor": "Run",
+    "Python.rps.executor": "Run",
+    "Python.scratch.executor": "Run",
+    "Python.sys_and_os_module.executor": "Run",
+    "Python.test.executor": "Debug",
+    "Python.ticket.executor": "Run",
+    "Python.treasure_map.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "/Users/mgozum/Documents/Python/100_Days_of_Code/Days-11-20/Day_014",
+    "settings.editor.selected.configurable": "terminal"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Python&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
     ]
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Udemy_100_Days_of_Code" is-module-sdk="true">
@@ -144,14 +146,14 @@
       <recent name="C:\Users\mgjr7\PycharmProjects\100_Days_of_Code\Day_010" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Days-11-20/Day_015" />
       <recent name="$PROJECT_DIR$/Days-11-20/Day_013/images" />
       <recent name="$PROJECT_DIR$/Days-11-20" />
       <recent name="$PROJECT_DIR$/Days-1-10" />
       <recent name="$PROJECT_DIR$/Day 002" />
-      <recent name="$PROJECT_DIR$/Day 001" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.higher_lower">
+  <component name="RunManager" selected="Python.coffee_machine">
     <configuration name="DAY007_Hangman" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Udemy_100_Days_of_Code" />
       <option name="ENV_FILES" value="" />
@@ -169,6 +171,28 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="coffee_machine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Udemy_100_Days_of_Code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Days-11-20/Day_015" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Days-11-20/Day_015/coffee_machine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
@@ -218,28 +242,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="love_calc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Udemy_100_Days_of_Code" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Days-1-10/Day_003" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Days-1-10/Day_003/love_calc.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Udemy_100_Days_of_Code" />
       <option name="ENV_FILES" value="" />
@@ -263,19 +265,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.coffee_machine" />
       <item itemvalue="Python.DAY007_Hangman" />
       <item itemvalue="Python.higher_lower" />
       <item itemvalue="Python.library" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.love_calc" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.coffee_machine" />
         <item itemvalue="Python.higher_lower" />
         <item itemvalue="Python.DAY007_Hangman" />
         <item itemvalue="Python.library" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.love_calc" />
       </list>
     </recent_temporary>
   </component>

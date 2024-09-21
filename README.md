@@ -140,3 +140,11 @@ I've taken a couple of classes to start my Python learning journey. I found this
 - Links
   - [The Higher Lower Game](https://www.higherlowergame.com/)
   - [Higher Lower Python Demo](https://appbrewery.github.io/python-day14-demo/)
+
+## Day 15 lesson topics:
+- Build a Coffee Machine
+- Links
+  - [Pycharm Keyboard Shortcuts](https://www.jetbrains.com/help/pycharm/mastering-keyboard-shortcuts.html?keymap=secondary_windows)
+  - [Emojipedia](https://emojipedia.org/hot-beverage)
+  - [Windows Emoji Panel](https://support.microsoft.com/en-gb/windows/windows-keyboard-tips-and-tricks-588e0b72-0fff-6d3f-aeee-6e5116097942)
+  - [Mac Emoji Panel](https://support.apple.com/en-gb/guide/mac-help/mchlp1560/mac)
