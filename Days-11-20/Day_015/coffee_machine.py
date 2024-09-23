@@ -15,7 +15,13 @@ def clear_screen():
     elif name == 'posix':
         _ = system('clear')
 
-def format_order(order):
+def format_order(order) -> str:
+    """
+    Format order initials to keywords to be used in MENU dictionary
+    :param order: str - initial of coffee flavor
+    :return: keyword string in MENU dictionary
+
+    """
     if order == "e":
         return "espresso"
     elif order == "l":
@@ -23,10 +29,11 @@ def format_order(order):
     elif order == "c":
         return "cappuccino"
 
-def check_supplies(order):
+def check_supplies(order) -> list:
     """
-    Check if we have enough ingredients to fulfill order.\
-    :return Dictionary
+    Check if we have enough ingredients to fulfill order.
+    :order: str - Coffee flavor, reformatted by format_order function.
+    :return: list
     """
     # Order ingredients
     water_needed = MENU[order]["ingredients"]["water"]
@@ -45,7 +52,13 @@ def check_supplies(order):
 
     return [1, [water_needed, milk_needed, coffee_needed]]
 
-def collect_money(customer_order, coffee_price, ingredients):
+def collect_money(customer_order, coffee_price, ingredients) -> bool:
+    """
+    :param customer_order: str - Coffee flavor, reformatted by format_order function
+    :param coffee_price: int - cost of coffee indicated in MENU dictionary
+    :param ingredients: dict - key-value pair extracted from MENU dictionary
+    :return: True if payment amount covers the price of coffee. Otherwise, False
+    """
     deposited_coins = 0
     coin_types = {"quarters": .25, "dimes": .10, "nickels": .05, "pennies": .01}
     clear_screen()
@@ -82,16 +95,29 @@ def collect_money(customer_order, coffee_price, ingredients):
     return payment_correct
 
 def adjust_inventory(ingredients):
+    """
+    Subtract amount of ingredients used by customer order from current water, milk and coffee values.
+    :param ingredients: dict - key-value pair extracted from MENU dictionary
+    :return: None
+    """
     resources["water"] -= ingredients[0]
     resources["milk"] -= ingredients[1]
     resources["coffee"] -= ingredients[2]
 
 def refill_machine():
+    """
+    Reset max values of resources.
+    :return: None
+    """
     resources["water"] = 300
     resources["milk"] = 200
     resources["coffee"] = 100
 
 def create_report():
+    """
+    Print out report of ingredient levels and amount of cash in coin bank.
+    :return: None
+    """
     for bal in resources:
         print(f"{bal.capitalize()}: {resources[bal]}")
     print(f"Cash: ${money:.2f}")
