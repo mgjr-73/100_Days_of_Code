@@ -5,13 +5,6 @@ from os import system, name
 
 # Coffee machine state. True = ON
 power = True
-
-# Ingredients
-water = resources["water"]
-milk = resources["milk"]
-coffee = resources["coffee"]
-
-# Cash in machine
 money = 0
 
 
@@ -22,41 +15,131 @@ def clear_screen():
     elif name == 'posix':
         _ = system('clear')
 
-def process_order(order):
-    """Send order to appropriate function"""
-    result = ""
+def format_order(order):
     if order == "e":
-        print("espresso!")
-    if order == "l":
-        print("latte!")
-    if order == "c":
-        print("cappuccino!")
-    if order == "report":
-        print(f"Water: {water}")
-        print(f"Milk: {milk}")
-        print(f"Coffee: {coffee}")
-        print(f"Money: {money}")
+        return "espresso"
+    elif order == "l":
+        return "latte"
+    elif order == "c":
+        return "cappuccino"
 
-    return result
+def check_supplies(order):
+    """
+    Check if we have enough ingredients to fulfill order.\
+    :return Dictionary
+    """
+    # Order ingredients
+    water_needed = MENU[order]["ingredients"]["water"]
+    milk_needed = MENU[order]["ingredients"]["milk"]
+    coffee_needed = MENU[order]["ingredients"]["coffee"]
 
-# TODO: Check resources sufficient?
-    # - When the user chooses a drink, the program should check if there are enough resources to make that drink.
-    # - If not enough resources, print “Sorry there is not enough <resource type>.”
-def check_resources():
-    pass
+    # Check if we have enough ingredients to fulfill order
+    if resources["water"] < water_needed or resources["milk"] < milk_needed or resources["coffee"] < coffee_needed:
+        print(f'Sorry, we are low on ingredients and cannot make your "{order.capitalize()}"')
+        print("Please notify the management to refill the machine. Sorry for the inconvenience.")
+        time.sleep(5)
+        clear_screen()
+        print("Returning to main screen...")
+        time.sleep(3)
+        return [0, None]
+
+    return [1, [water_needed, milk_needed, coffee_needed]]
+
+def collect_money(customer_order, coffee_price, ingredients):
+    deposited_coins = 0
+    coin_types = {"quarters": .25, "dimes": .10, "nickels": .05, "pennies": .01}
+    clear_screen()
+    print("This machine only accepts coins.")
+    time.sleep(3)
+
+    payment_correct = False
+    more_coins = True
+    while more_coins:
+        for coin in coin_types:
+            clear_screen()
+            print(f"Order: {customer_order.capitalize()}, Price: ${coffee_price:.2f}")
+            print(f"Total coins deposited: ${deposited_coins:.2f}")
+            insert_coin = input(f"How many {coin} ({coin_types[coin]})? ")
+            if insert_coin == "":
+                insert_coin = 0
+            insert_coin = int(insert_coin)
+            deposited_coins += insert_coin * coin_types[coin]
+
+        if deposited_coins >= coffee_price:
+            change = deposited_coins - coffee_price
+            print(f"Your change is: ${change:.2f}")
+            adjust_inventory(ingredients)
+            time.sleep(2)
+            payment_correct = True
+            more_coins = False
+        else:
+            add_coins = input(f"{deposited_coins:.2f} is insufficient. Add more coins? (y/n) ")
+            if add_coins == "n":
+                print("Returning your coins.")
+                time.sleep(2)
+                more_coins = False
+
+    return payment_correct
+
+def adjust_inventory(ingredients):
+    resources["water"] -= ingredients[0]
+    resources["milk"] -= ingredients[1]
+    resources["coffee"] -= ingredients[2]
+
+def refill_machine():
+    resources["water"] = 300
+    resources["milk"] = 200
+    resources["coffee"] = 100
+
+def create_report():
+    for bal in resources:
+        print(f"{bal.capitalize()}: {resources[bal]}")
+    print(f"Cash: ${money:.2f}")
 
 
 while power:
     clear_screen()
-    customer_order = input("What would you like? (e)spresso/(l)atte/(c)appuccino): ")
-    if customer_order != "off":
-        process_order(customer_order)
-        print()
-        input("Order processed. Press ENTER to continue.")
-    else:
+    print("COFFEE MACHINE Model: CM-2024")
+    customer_order = input("What would you like? (E)spresso/(L)atte/(C)appuccino): ")
+    customer_order = customer_order.lower()
+
+    if customer_order == "off":
         print("Shutting down...")
         time.sleep(3)
-        power = False
+        break
+
+    elif customer_order == "report":
+        create_report()
+        input("Press ENTER to return to main screen.")
+
+    elif customer_order == "refill":
+        clear_screen()
+        print("Refilling machine...")
+        time.sleep(3)
+        refill_machine()
+        create_report()
+        print("Coffee machine ingredients replenished. Returning to main screen...")
+        time.sleep(4)
+
+    elif customer_order in ("e", "l", "c"):
+        customer_order = format_order(customer_order)
+        print(f'You are ordering "{customer_order.capitalize()}"')
+        time.sleep(2)
+        status, ingredients = check_supplies(customer_order)
+        if status == 1:
+            coffee_price = MENU[customer_order]["cost"]
+            print(f"{customer_order} is {coffee_price}")
+            if collect_money(customer_order, coffee_price, ingredients):
+                money += coffee_price
+                print(f"Making coffee now. Please wait.")
+                time.sleep(3)
+                print()
+                print(f"Your {customer_order.capitalize()} is ready. Enjoy!")
+                time.sleep(3)
+
+    else:
+        print("That is not a valid input.")
+        time.sleep(2)
 
 
 
@@ -66,11 +149,10 @@ while power:
 
 
 
-# TODO: Process coins
-    # - If there are sufficient resources to make the drink selected, then the program should prompt the user to
-    # insert coins.
-    # - Calculate the monetary value of the coins inserted. E.g. 1 quarter, 2 dimes, 1 nickel, 2 pennies =
-    # 0.25 + 0.1 x 2 + 0.05 + 0.01 x 2 = $0.52
+
+
+
+
 
 # TODO: Check transaction successful?
     # - Check that the user has inserted enough money to purchase the drink they selected

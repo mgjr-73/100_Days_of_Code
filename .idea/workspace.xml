@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1c5b5ce1-a2c0-4444-b601-a21ba4294721" name="Changes" comment="Edited to summarize. For details, see D002_notes.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Days-11-20/Day_015/coffee_machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/Days-11-20/Day_015/coffee_machine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Days-11-20/Day_015/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Days-11-20/Day_015/data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -414,6 +415,11 @@
           <url>file://$PROJECT_DIR$/Days-1-10/Day_002/D002_data_types.py</url>
           <line>7</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Days-11-20/Day_015/coffee_machine.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
