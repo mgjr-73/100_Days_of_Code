@@ -148,3 +148,19 @@ I've taken a couple of classes to start my Python learning journey. I found this
   - [Emojipedia](https://emojipedia.org/hot-beverage)
   - [Windows Emoji Panel](https://support.microsoft.com/en-gb/windows/windows-keyboard-tips-and-tricks-588e0b72-0fff-6d3f-aeee-6e5116097942)
   - [Mac Emoji Panel](https://support.apple.com/en-gb/guide/mac-help/mchlp1560/mac)
+
+## Day 16 lesson topics:
+- Object Orient Programming (OOP)
+  - How to use OOP: Classes and Objects
+  - Constructing Objects and Accessing their Attributes and Methods
+    - turtle module
+    - see main.py
+    - [turtle documentation](https://docs.python.org/3/library/turtle.html)
+    - [turtle color reference](https://cs111.wellesley.edu/reference/colors)
+- How to add Python packages and use PyPi
+  - [Pokemon Pokedex](https://pokemondb.net/pokedex/game/x-y)
+  - [PyPi.org](https://pypi.org/)
+  - [Pretty Table Package](https://pypi.org/project/prettytable/)
+  - [Pretty Table Documentation](https://code.google.com/archive/p/prettytable/wikis/Tutorial.wiki)
+- Practice Modifying Object Attributes and Calling Methods
+- Building the Coffee Machine (Day 15) in OOP

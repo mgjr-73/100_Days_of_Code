@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1c5b5ce1-a2c0-4444-b601-a21ba4294721" name="Changes" comment="Edited to summarize. For details, see D002_notes.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,11 +100,14 @@
     "Python.instructor_blackjack.executor": "Run",
     "Python.library.executor": "Run",
     "Python.love_calc.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
     "Python.odd_even.executor": "Run",
     "Python.os_module.executor": "Run",
     "Python.password_generator.executor": "Run",
     "Python.password_generator_instrct_solution.executor": "Run",
     "Python.pizza_order.executor": "Run",
+    "Python.pretty_table.executor": "Run",
     "Python.rps.executor": "Run",
     "Python.scratch.executor": "Run",
     "Python.sys_and_os_module.executor": "Run",
@@ -115,7 +119,8 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "/Users/mgozum/Documents/Python/100_Days_of_Code/Days-11-20/Day_014",
-    "settings.editor.selected.configurable": "terminal"
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -145,36 +150,14 @@
       <recent name="C:\Users\mgjr7\PycharmProjects\100_Days_of_Code\Day_010" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Days-11-20/Day_016" />
       <recent name="$PROJECT_DIR$/Days-11-20/Day_015" />
       <recent name="$PROJECT_DIR$/Days-11-20/Day_013/images" />
       <recent name="$PROJECT_DIR$/Days-11-20" />
       <recent name="$PROJECT_DIR$/Days-1-10" />
-      <recent name="$PROJECT_DIR$/Day 002" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.coffee_machine">
-    <configuration name="DAY007_Hangman" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Udemy_100_Days_of_Code" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Days-1-10/Day_007" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Days-1-10/Day_007/DAY007_Hangman.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="coffee_machine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Udemy_100_Days_of_Code" />
       <option name="ENV_FILES" value="" />
@@ -219,7 +202,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="library" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Udemy_100_Days_of_Code" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -228,11 +211,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Days-11-20/Day_016/oop-coffee-machine-start" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/library.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Days-11-20/Day_016/oop-coffee-machine-start/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,7 +224,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Udemy_100_Days_of_Code" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,11 +233,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Days-11-20/Day_013" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Days-11-20/Day_016" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Days-11-20/Day_013/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Days-11-20/Day_016/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pretty_table" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Udemy_100_Days_of_Code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Days-11-20/Day_016" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Days-11-20/Day_016/pretty_table.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,19 +269,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.pretty_table" />
+      <item itemvalue="Python.main" />
       <item itemvalue="Python.coffee_machine" />
-      <item itemvalue="Python.DAY007_Hangman" />
       <item itemvalue="Python.higher_lower" />
-      <item itemvalue="Python.library" />
-      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.pretty_table" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.coffee_machine" />
         <item itemvalue="Python.higher_lower" />
-        <item itemvalue="Python.DAY007_Hangman" />
-        <item itemvalue="Python.library" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
