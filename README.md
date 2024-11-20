@@ -1,4 +1,4 @@
-I've taken a couple of classes to start my Python learning journey. I found this class on Udemy which is perfect for reviewing and doing some coding each day.
+I've taken a couple of classes to start my Python learning journey. I found this class on Udemy which is perfect for learning how to code in Python. This particular class is well structured and easy to follow and I highly recommend it.
 
 ## Day 1 lesson topics:
 - `print` function
@@ -164,3 +164,15 @@ I've taken a couple of classes to start my Python learning journey. I found this
   - [Pretty Table Documentation](https://code.google.com/archive/p/prettytable/wikis/Tutorial.wiki)
 - Practice Modifying Object Attributes and Calling Methods
 - Building the Coffee Machine (Day 15) in OOP
+
+## Day 17 lesson topics:
+- How to create your own Class in Python
+- Attributes, Class Constructors, \_\_init\_\_ Function
+- Adding Methods to a Class
+- Quiz Project
+  - Question Class
+  - List of Question Objects from the Data
+  - The QuizBrain and next_question() method
+  - How to continue showing new Questions
+  - Checking answers and keeping score
+- Open Trivia DB to get new questions
