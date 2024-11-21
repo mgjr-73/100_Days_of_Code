@@ -5,7 +5,41 @@
 For example: `CarCamshaftPulley`. This is also known as "PascalCase".
 
 # Attributes, Class Constructors, \_\_init\_\_ Function
-
+- one method of adding attributes is the dot notation
+    ```python
+    class Car:
+      pass
+      
+    
+    car1 = Car()
+    car1.top_speed = 180
+    car1.model = "Mustang"
+    
+    print(car1.model)
+    ```
+    This is inefficient though, because it will become unwieldy if you have a lot of attributes
+    and adding a lot of car objects. You will have to repeat this method over and over for each
+    of the car objects.
+- A better way to handle this is by using a Constructor where we could initialize an object to
+populate starting attributes and corresponding values.
+- A Constructor uses a special function, `__init__`.
+```python
+    class Car:
+        def __init__(self, top_speed, model):
+            print("Initializing car object...")
+            self.top_speed = top_speed
+            self.model = model
+            self.seats = 0   # This value has a default and can be changed directly
+    
+    car1 = Car(180, "Mustang")
+    car1.seats = 4
+    car2 = Car(250, "Formula 1")
+    car2.seats = 1
+    
+    
+    print(f"Model: {car1.model}, Top Speed: {car1.top_speed}, # of Seats: {car1.seats}")
+    print(f"Model: {car2.model}, Top Speed: {car2.top_speed}, # of Seats: {car2.seats}"")
+```
 
 
 
