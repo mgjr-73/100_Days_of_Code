@@ -41,6 +41,34 @@ populate starting attributes and corresponding values.
     print(f"Model: {car2.model}, Top Speed: {car2.top_speed}, # of Seats: {car2.seats}"")
 ```
 
+# Adding Methods To A Class
+- Attributes are what an object "has".
+- Methods are things that an object "does".
+- Example, let's say our default value for attribute "seats" is 5. We can override this default value 
+by defining a method that changes it.
+```python
+class Car:
+        def __init__(self, top_speed, model):
+            print("Initializing car object...")
+            self.top_speed = top_speed
+            self.model = model
+            self.seats = 5
+
+        def enter_race_mode(self):
+            self.seats = 2
+
+car1 = Car(180, "Mustang")
+car1.enter_race_mode()
+```
+
+# Quiz Project Part 1: Create the Question Class
+- Attributes
+  - question text
+  - answer
+- A new_question object is initialized with the above attributes
+- Task: Create a Question class with an \_\_init\_\_ method with two attributes, 'text' and 'answer'.
+  (work file: question_model.py)
+
 
 
 
