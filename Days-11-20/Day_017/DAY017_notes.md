@@ -69,8 +69,23 @@ car1.enter_race_mode()
 - Task: Create a Question class with an \_\_init\_\_ method with two attributes, 'text' and 'answer'.
   (work file: question_model.py)
 
+# Quiz Project Part 2: Creating the List of Question Objects from the Data
+- Prepare Question text and data into a Question Bank list
 
-
+# Quiz Project Part 3: The QuizBrain and the next_question method
+- Ask questions
+- Check if answer is correct
+- Check if we're at the end of quiz
+- Create a QuizBrain class with attributes: 
+  - Create method `__init__()` to initialize
+    - `question_number = 0`
+    - `questions_list`
+- Create method 
+  - `next_question()` to pull up the next question from the list
+- Desired output
+   ```plaintext
+      Q.1 Question text. (True/False)?: 
+   ```
 
 # Example Code
 ```python
