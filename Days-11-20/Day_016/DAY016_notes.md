@@ -71,6 +71,7 @@ same blueprint, or in OOP... a Class.
             ```
 
 ## How to add Python packages and use PyPi
+- pypi.org for different packages
 - A package is a bundle of files put together for a single purpose.
 - Example, if you want to create a table, instead of typing it yourself,
 you could install prettytable package to automate the creation of table.

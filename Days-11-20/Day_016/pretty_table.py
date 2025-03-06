@@ -8,9 +8,9 @@ table.add_column("Type", ["Grass", "Fire", "Water", "Normal"])
 
 # attributes - first we can print the attribute to see the default, if any.
 # Then we can change it, as per documentation
-print(table.align)
+print(table.align)   # centered by default
 print(table)
 
-table.align = "l"
+table.align = "l"   # left-aligned
 print(table.align)
 print(table)
