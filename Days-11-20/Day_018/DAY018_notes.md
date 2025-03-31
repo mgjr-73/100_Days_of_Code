@@ -1,0 +1,11 @@
+# Understanding Turtle graphics
+- [Turtle Graphics Documentation](https://docs.python.org/3/library/turtle.html)
+- Use google then stackoverflow if the documentation is TLDR.
+  - Example query: "Turtle graphics change the shape Stackoverflow"
+- Turtle colors
+  - Uses pencolor() method which gets the colors from Tk color spec string ("red", "yellow", or "#33cc8c").
+  - Tk colors: [tcl.tk/man/tcl8.4/TkCmd/colors.htm](tcl.tk/man/tcl8.4/TkCmd/colors.htm)
+  - Tk is short for module tkinter (TK interface), used for creating GUI
+  - [Trinket Turtle Colors](https://trinket.io/docs/colors)
+  - [Turtle Colors](https://cs111.wellesley.edu/reference/colors)
+- Learn to read documentation

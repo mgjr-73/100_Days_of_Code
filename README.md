@@ -176,3 +176,17 @@ I've taken a couple of classes to start my Python learning journey. I found this
   - How to continue showing new Questions
   - Checking answers and keeping score
 - Open Trivia DB to get new questions
+
+## Dy 18 lesson topics:
+- Understanding Turtle graphics
+- Importing modules, Installing packages, and Working with Aliases
+- Tuples and how to generate random colors
+- Turtle Challenges
+  - Draw a square
+  - Draw a dashed line
+  - Drawing different shapes
+  - Generate a random walk
+  - Draw a spirograph
+- Project: The Hirst Painting
+  - Part 1: Extract RGB values from images
+  - Part 2: Drawing the dots
