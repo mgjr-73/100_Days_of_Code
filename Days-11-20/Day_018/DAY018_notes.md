@@ -9,3 +9,20 @@
   - [Trinket Turtle Colors](https://trinket.io/docs/colors)
   - [Turtle Colors](https://cs111.wellesley.edu/reference/colors)
 - Learn to read documentation
+
+# Importing Modules
+- `import module_name`
+- `from module_name import Module_class`
+  - Best when you need to use the class.
+- `from module_name import *`  
+  - This imports EVERYTHING in the module.
+  - Not good practice to use because it can be confusing where a method is coming from.
+
+# Aliasing Modules
+- `import module_name as alias`
+
+# Installing Modules
+- When you can't just import modules that are not part of Python standard library.
+- Install from PyPI using `pip install`
+  - in Pycharm, just hover the module and it will have a suggestion box asking if you want to install the module.
+  - installed packages get installed in a local virtual environment (venv) folder on a per project basis.
