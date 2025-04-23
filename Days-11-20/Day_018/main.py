@@ -1,9 +1,11 @@
+import turtle
 from turtle import Turtle, Screen
 
 
 tim = Turtle()
 tim.shape("turtle")
-tim.color("red")
+# tim.color("red")
+turtle.colormode(255)
 
 # Challenge 1 - Draw a Square
 # tim.forward(100)
@@ -65,7 +67,64 @@ tim.color("red")
 #     draw_shape(shape_side_n)
 
 
+# Challenge 4 - Random Walk
+# - Turtle walks randomly in any of the four directions, N, E, S, W
+# - Line changes color at every step
+# - Make lines thicker
+# - Make turtle draw faster
 
+import random
+
+
+# heading = [0, 90, 180, 270]
+# colors = ["CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaGreen", "wheat", "SlateGray", "SeaGreen"]
+#
+# def turtle_move():
+#     step_heading = random.choice(heading)
+#     tim.speed(10)
+#     tim.pensize(10)
+#     tim.forward(50)
+#     tim.setheading(step_heading)
+#
+#
+# while True:
+#     tim.color(random.choice(colors))
+#     turtle_move()
+
+
+# Challenge 4 Solution
+# colours = ["CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaGreen", "wheat", "SlateGray", "SeaGreen"]
+# directions = [0, 90, 180, 270]
+# tim.pensize(15)
+# tim.speed("fastest")
+#
+# for _ in range(200):
+#     tim.color(random.choice(colours))
+#     tim.forward(30)
+#     tim.setheading(random.choice(directions))
+
+
+# Eliminating set of colors and instead use r, g, b.
+# Up above, we commented out tim.color and replace it with Turtle.colormode(255)
+
+def random_color():
+    r = random.randint(0, 255)
+    g = random.randint(0, 255)
+    b = random.randint(0, 255)
+    return (r, g, b)
+
+    # instructor solution
+    # random_color = (r, g, b)
+    # return random_color
+
+directions = [0, 90, 180, 270]
+tim.pensize(15)
+tim.speed("fastest")
+
+for _ in range(200):
+    tim.color(random_color())
+    tim.forward(30)
+    tim.setheading(random.choice(directions))
 
 # Screen class shows the window, otherwise you will only see it in a brief flash.
 # This stays in the bottom of the code. exitonclick method will close the window on click.
