@@ -105,7 +105,8 @@ import random
 
 
 # Eliminating set of colors and instead use r, g, b.
-# Up above, we commented out tim.color and replace it with Turtle.colormode(255)
+# Up above, we commented out tim.color and replaced it with Turtle.colormode(255). 255 represents the upper limit of
+# the color range.
 
 def random_color():
     r = random.randint(0, 255)
@@ -113,18 +114,40 @@ def random_color():
     b = random.randint(0, 255)
     return (r, g, b)
 
-    # instructor solution
+    # instructor solution, assign RGB to variable random color then return.
+    # I just did a shortcut.
     # random_color = (r, g, b)
     # return random_color
 
-directions = [0, 90, 180, 270]
-tim.pensize(15)
-tim.speed("fastest")
+# directions = [0, 90, 180, 270]
+# tim.pensize(15)
+# tim.speed("fastest")
+#
+# for _ in range(200):
+#     tim.color(random_color())
+#     tim.forward(30)
+#     tim.setheading(random.choice(directions))
 
-for _ in range(200):
-    tim.color(random_color())
-    tim.forward(30)
-    tim.setheading(random.choice(directions))
+
+# CHALLENGE 5: Draw a Spirograph
+# - Learn how to draw circle
+# - Learn how to draw it repeatedly while changing the tilt up to 360 degrees to complete the spirograph
+
+tim.speed("fastest")
+#
+# for a in range(0, 361, 1):
+#     tim.color(random_color())
+#     tim.circle(100)
+#     tim.setheading(a)
+
+# Instructor solution
+# def draw_spirograph(size_of_gap):
+#     for _ in range(int(360 / size_of_gap)):
+#         tim.color(random_color())
+#         tim.circle(100)
+#         tim.setheading(tim.heading() + size_of_gap)
+#
+# draw_spirograph(5)
 
 # Screen class shows the window, otherwise you will only see it in a brief flash.
 # This stays in the bottom of the code. exitonclick method will close the window on click.

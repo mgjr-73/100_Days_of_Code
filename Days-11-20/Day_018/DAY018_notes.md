@@ -35,3 +35,7 @@
 - In other words, Tuples are "immutable".
 - You can convert your Tuple into a list:
   `list(my_tuple)`
+
+# Colorgram Package
+- Used for Hirst Painting Project
+- https://pypi.org/project/colorgram.py/
