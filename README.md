@@ -190,3 +190,9 @@ I've taken a couple of classes to start my Python learning journey. I found this
 - Project: The Hirst Painting
   - Part 1: Extract RGB values from images
   - Part 2: Drawing the dots
+
+## Day 19 lesson topics:
+- Higher Order Functions & Event Listeners
+- Object and State instances
+- Understanding Turtle Coordinate System
+- Challenge: Make an Etch-A-Sketch App
