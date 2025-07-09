@@ -16,4 +16,28 @@
     def func_b(func_a):
       pass
     ```
+
+# Object State and Instances
+- Use turtle class to create multiple turtle instances
+   ```python
+  tim = Turtle()
+  jim = Turtle()
+   ```
+- Each instance can have its own state, meaning they can have their own
+unique attributes, like color for example.
+   ```python
+   tim.color = green
+   jim.color = red
+   ```
   
+# Understanding the Turtle Coordinate System
+- [Turtle `textinput` method](https://docs.python.org/3.1/library/turtle.html#turtle.textinput)
+   ```plaintext
+   turtle.textinput(title, prompt)
+  
+  or
+  
+   screen.textinput(title, prompt)
+   ```  
+# Challenges
+1. Etch-A-Sketch App
