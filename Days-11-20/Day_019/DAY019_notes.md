@@ -34,9 +34,7 @@ unique attributes, like color for example.
 - [Turtle `textinput` method](https://docs.python.org/3.1/library/turtle.html#turtle.textinput)
    ```plaintext
    turtle.textinput(title, prompt)
-  
-  or
-  
+   or
    screen.textinput(title, prompt)
    ```  
 # Challenges
