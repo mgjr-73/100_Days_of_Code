@@ -196,3 +196,15 @@ I've taken a couple of classes to start my Python learning journey. I found this
 - Object and State instances
 - Understanding Turtle Coordinate System
 - Challenge: Make an Etch-A-Sketch App
+
+## Day 20 lesson topics
+- Screen setup and creating a snake body
+- Animating the snake segments on screen
+- Create a snake class & move to OOP
+- How to control the snake with a keypress
+
+## Day 21 lesson topics
+- Class inheritance
+- Detecting Snake Collisions with Food, Wall, and Tail
+- Creating a Scoreboard and keeping score
+- Slicing lists and Tuples
